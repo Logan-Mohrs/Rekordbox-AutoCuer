@@ -1,18 +1,23 @@
-# :: Bide's Lazy Cue System V 1.0 :: #
-# ALL CUE POINTS (SETUP REQUIRED)
+## RekordBox Setup
 
-## WARNING Ç
-#  For best results log into Kuvo and DO NOT Touch the keyboard or mouse once the script is going. 
+# 1. bind cue points A - J to --> 1, 2, 3, cmd + 4, cmd + 5, cmd + 6, cmd + 7, cmd + 8, cmd + 9, cmd + -
+# 2. Set RekordBox to Export Mode and 1 Player 
 
-# 1. Make a playlist in rekordbox.
-# 2. Make sure that you've prelined up the tracks for the best results. 
-# 3. Find out how many tracks are in the playlist. (For best results use this on tracks that don't have cue points set.)
-# 4. Click first track on the playlist. 
-# 5. Press play in the script editor.
-# 6. Enter the number of tracks you want to process e.g playlist has 100 tracks put 100
-# 7. WAIT FOR THE Program to finish. 
 
-# In an emergency press cmd+alt+esc and try to quit the script process. The script uses keystrokes to automate rekordbox so it will try to fight you. 
+
+
+## Script Setup
+
+# 1. Create a playlist and populate it with songs that have no cue points.
+# 2. Lineup the grid on the tracks if off beat.
+# 3. Load the first track.
+# 4. Press play in the script editor.
+# 5. Enter the number of tracks in the playlist
+# 6. ???
+# 7. Profit $$$
+
+## The code works by looping over the - increment beat right -- button a number of times. You can change this to jump any amount, just change the number of loops accordingly.
+## Will set a memory and hot cue at the designated locations.
 
 
 tell application "rekordbox"
